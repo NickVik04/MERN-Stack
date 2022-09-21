@@ -1,12 +1,12 @@
-let reason = ()=> {
+const reason = ()=> {
 console.log("I want to become a FullStack Developer");
 };
 
-let calc = ()=> {
+const calc = ()=> {
     console.log(10+10);
     };
 
-var imPrivate = () => {
+const imPrivate = () => {
     return 1+1;
 };
 
@@ -14,3 +14,4 @@ var imPrivate = () => {
         reason,
         calc
     };
+
