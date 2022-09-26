@@ -1,11 +1,9 @@
-require("./lesson1");
-const Example2 = require("./importation");
-const example1 =require("./importation/example1");
-example1();
+const express = require("express");
 
-Example2.calc();
-Example2.reason();
+const app = express();
+app.listen(3000);
 
+console.log("Server is Up!");
 
 
 
